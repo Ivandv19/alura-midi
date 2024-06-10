@@ -2,27 +2,32 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadatos del documento -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Configuración de compatibilidad con IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista del dispositivo -->
 
+    <!-- Título de la página -->
     <title>Alura MIDI</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="images/bateria.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/estilos.css">
-
+    <!-- Enlaces a recursos externos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Preconexión con el servidor de fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Preconexión con el servidor de fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet"> <!-- Fuente Google Montserrat -->
+    <link rel="icon" type="image/png" href="images/bateria.png"> <!-- Icono de la pestaña del navegador -->
+    <link rel="stylesheet" href="css/reset.css"> <!-- Hoja de estilos para resetear estilos predeterminados -->
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Hoja de estilos personalizada -->
 
 </head>
 
 <body>
 
+    <!-- Encabezado de la página -->
     <h1>Alura Midi</h1>
 
+    <!-- Sección del teclado -->
     <section class="teclado">
+        <!-- Botones del teclado -->
         <button class="tecla tecla_pom">Pom</button>
         <button class="tecla tecla_clap">Clap</button>
         <button class="tecla tecla_tim">Tim</button>
@@ -36,6 +41,7 @@
         <button class="tecla tecla_tom">Tom</button>
     </section>
 
+    <!-- Elementos de audio para cada tecla -->
     <audio src="sounds/keyq.wav" id="sonido_tecla_pom"></audio>
     <audio src="sounds/keye.wav" id="sonido_tecla_tim"></audio>
     <audio src="sounds/keya.wav" id="sonido_tecla_puff"></audio>
@@ -46,8 +52,7 @@
     <audio src="sounds/keyx.wav" id="sonido_tecla_tic"></audio>
     <audio src="sounds/keyc.wav" id="sonido_tecla_tom"></audio>
 
+    <!-- Script para la lógica del teclado -->
     <script src="main.js"></script>
 
 </body>
-
-</html>

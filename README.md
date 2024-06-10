@@ -1,27 +1,39 @@
-## Proyecto del Curso de JavaScript para Web: Crea páginas dinámicas
+# Alura MIDI
 
-El proyecto del curso es el Alura Midi que es un instrumento musical de interfaz digital al cual le agregaremos las funcionalidades en el transcurso del curso. 
+Alura MIDI es una aplicación web que simula un teclado MIDI virtual. Permite reproducir diferentes sonidos al presionar las teclas correspondientes.
 
- 
-## Comenzando 🚀
+## Funcionalidades
 
-Este repositorio contiene varias Branch. 
+- Teclado virtual con botones para diferentes sonidos.
+- Reproducción de sonidos al presionar las teclas correspondientes.
+- Interfaz intuitiva y fácil de usar.
 
-Cada Branch esta identificada con el nombre aula y el numero del aula correspondiente. 
+## Uso
 
-Ejemplo:  **aula-1**
+1. Abre el archivo `index.html` en tu navegador web.
+2. Presiona las teclas en el teclado virtual para reproducir los sonidos.
 
-*En la rama principal (main) se encuentra el código base del proyecto para que pueda descargarlo e ir construyendo el codigo con el pasar de las aulas.*
+## Tecnologías utilizadas
 
-### Pre-requisitos y uso 📋
+- HTML5
+- CSS3
+- JavaScript
 
-Descarga el código que necesites seleccionando la Branch dentro de este repositorio y ábrelo con tu editor de código favorito. 
+## Instalación
 
+1. Clona este repositorio en tu máquina local.
+2. Abre el archivo `index.html` en tu navegador web.
 
----
- Con :blue_heart: 
-- [Alura Latam](https://www.aluracursos.com/) 
-- [Instructora: Jeanmarie Quijada](https://github.com/JeanmarieAluraLatam) 
+## Créditos
 
+- Este proyecto fue desarrollado como parte de un ejercicio de desarrollo 
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
+- Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
 
+## Despliegue
 
+El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [AluraMIDI](https://alura-midi-inky.vercel.app/).
+
+## Licencia
+
+Este proyecto está bajo la Licencia [MIT](https://opensource.org/licenses/MIT).

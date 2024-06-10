@@ -1,3 +1,4 @@
+/* Define variables para los colores utilizados en el documento */
 :root {
   --gris: #aaa;
   --rojo: #e93d50;
@@ -6,14 +7,13 @@
   --luz: rgb(229, 255, 0);
 }
 
+/* Estilos generales del cuerpo del documento */
 body {
   align-items: center;
-  /*azul celeste */ 
-  background: #5a5bf3; 
-  background: -moz-linear-gradient(left, #5a5bf3 0%, #91e7d9 100%); 
-  background: -webkit-linear-gradient(left, #5a5bf3 0%,#91e7d9 100%); 
-  background: linear-gradient(to right, #5a5bf3 0%,#91e7d9 100%);
-
+  background: #5a5bf3; /* Fallback para navegadores que no soportan gradientes */
+  background: -moz-linear-gradient(left, #5a5bf3 0%, #91e7d9 100%); /* Firefox */
+  background: -webkit-linear-gradient(left, #5a5bf3 0%,#91e7d9 100%); /* WebKit (Safari/Chrome) */
+  background: linear-gradient(to right, #5a5bf3 0%,#91e7d9 100%); /* Estándar */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,14 +21,15 @@ body {
   min-height: 100vh;
 }
 
+/* Estilos para los encabezados */
 h1 {
   color: var(--blanco);
   margin-bottom: 20px;
   font-size: 2rem;
   font-weight: 600;
-  
 }
 
+/* Estilos para el teclado */
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
@@ -39,6 +40,7 @@ h1 {
   padding: 10px;
 }
 
+/* Estilos para las teclas */
 .tecla {
   background-color: var(--blanco);
   border-radius: 30px;
@@ -53,6 +55,7 @@ h1 {
   width: 120px;
 }
 
+/* Estilos para cuando una tecla está activa o presionada */
 .tecla.activa,
 .tecla:active {
   background-color: var(--rojo);
@@ -62,12 +65,14 @@ h1 {
   outline: none;
 }
 
+/* Estilos para cuando una tecla tiene el foco */
 .tecla.focus,
 .tecla:focus {
   outline: none;
   box-shadow: 1px 1px 10px var(--luz);
 }
 
+/* Estilos para cuando una tecla está activa y tiene el foco */
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--rojo-oscuro) inset, 1px 1px 10px var(--luz);
