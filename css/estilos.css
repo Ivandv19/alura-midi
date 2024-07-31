@@ -57,9 +57,7 @@ h1 {
   padding: 10px;
 }
 
-.container_teclado{
- 
-}
+
 
 /* Estilos para las teclas */
 .tecla {
@@ -103,11 +101,15 @@ footer{
   width: 100%;
   height: auto;
   background-color: #5a5bf3;
-  padding: 20px;
+  padding: 50px ;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer__creditos{
+  text-align: center;
 }
 
 
