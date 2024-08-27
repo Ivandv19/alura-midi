@@ -10,7 +10,7 @@ Alura MIDI es una aplicación web que simula un teclado MIDI virtual. Permite re
 
 ## Uso
 
-- Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://alura-midi-inky.vercel.app/).
+- Para visualizar el proyecto, sigue los pasos que se encuentran en la sección [Instalación](#instalación) o visita el enlace desplegado en [Vercel](https://alura-midi-inky.vercel.app/).
 - Presiona las teclas en el teclado virtual para reproducir los sonidos.
 
 ## Tecnologías utilizadas
