@@ -23,15 +23,15 @@ Alura MIDI es una aplicación web que simula un teclado MIDI virtual. Permite re
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 ```bash
-https://github.com/IvandevI9/AluraMidi.git
+https://github.com/Ivandv19/AluraMidi.git
 ```
 2. Abre el archivo `index.html` en tu navegador web.
 
 ## Créditos
 
 - Este proyecto fue desarrollado como parte de un ejercicio de desarrollo 
-- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 - Desarrollado por [Ivan Cruz](https://www.linkedin.com/in/ivan-cruz-1906mx/).
+- Desarrollado por [Alura Latam](https://www.linkedin.com/company/alura-latam/).
 
 ## Despliegue
 
